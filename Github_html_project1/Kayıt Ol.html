@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz!</h1>
+ <hr>
+    <table  width="20%">
+      <h2>Hesap Bilgileriniz</h2>
+      <tr>
+        <td>
+          <label for="ad">Kullanıcı Adınız</label>
+        </td>
+        <td>
+          <input type="text" id="ad"  />
+        </td>
+        <tr>
+            <td>
+                <label for="eposta">Eposta:</label>
+            </td>
+            <td>
+                <input type="email" id="eposta">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="parola">Parola</label>
+            </td>
+            <td>
+                <input type="password"  id="parola">
+            </td>
+        </tr>
+      </tr>
+    </table>
+    <h2>Kişisel Bilgileriniz</h2>
+    <table  width="40%">
+        <tr>
+            <td>
+                <label for="name">Adınız:</label>
+            </td>
+            <td>
+                <input type="text"  id="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="surname">Soyadınız:</label>
+            </td>
+            <td>
+                <input type="text"  id="surname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <label for="country">Şehir</label>
+            </td>
+            <td>
+              <select id="country">
+                <option value="72">Batman</option>
+                <option value="67">Zonguldak</option>
+                <option value="34">İstanbul</option>
+                <option value="21">Diyarbakır</option>
+                <option value="47">Mardin</option>
+                <option value="01">Adana</option>
+                <option value="81">Düzce</option>
+                <option value="06">Ankara</option>
+              </select>
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Sex">Cinsiyet</label>
+          </td>
+          <td>
+            <label for="male">Erkek</label>
+            <input type="radio" name="Sex"  id="male">
+
+            <label for="female">Kadın</label>
+            <input type="radio" name="Sex"  id="female">
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="hobies">Hobileriniz</label>
+          </td>
+          <td>
+            <input type="checkbox"  id="cinema">
+            <label for="cinema">Sinema</label>
+            
+            <input type="checkbox"  id="sport">
+            <label for="sport">Spor</label>
+            
+            <input type="checkbox"  id="swimming">
+            <label for="swimming">Yüzme</label>
+            
+            <input type="checkbox"  id="playgame">
+            <label for="playgame">Oyun Oynama</label>
+            
+          </td>
+        </tr>
+
+
+    </table>
+    <table width="25%">
+      <h2>Eğitim Bilgileriniz</h2>
+      <tr>
+        <td>
+          <label for="Egitim">Eğitim Durumunuz</label>
+        </td>
+        <td>
+          <input type="radio" name="education" id="ilköğretim">
+          <label for="ilköğretim">İlköğretim</label>
+
+          <input type="radio" name="education" id="ortaöğretim">
+          <label for="ortaöğretim">ortaöğretim</label>
+
+          <input type="radio" name="education" id="lise">
+          <label for="lise">Lise</label>
+          
+          <input type="radio" name="education" id="lisans">
+          <label for="lisans">Lisans</label>
+         
+          <input type="radio" name="education" id="yükseklisans">
+          <label for="yükseklisans">Yüksek Lisans</label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Mezuniyet Durumu</td>
+        <td>
+
+          <input type="radio" name="gradiatuary" id="mezun">
+          <label for="mezun">Mezun</label>
+
+          <input type="radio" name="gradiatuary" id="devam">
+          <label for="devam">Devam Ediyor</label>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
